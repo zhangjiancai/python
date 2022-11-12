@@ -1,0 +1,15 @@
+RID	age	income	student	credit _ ratir	class _ buys _
+1	youth	high	no	fair	no
+2	youth	high	no	excellent	no
+3	medium _a	high	no	fair	yes
+4	senior	medium	no	fair	yes
+5	senior	low	yes	fair	yes
+6	senior	|OW	yes	excellent	no
+7	medium _a	lOW	yes	excellent	yes
+8	youth	medium	no	fair	no
+9	youth	|OW	yes	fair	yes
+10	senior	medium	yes	fair	yes
+11	youth	medium	yes	excellent	yes
+12	medium _a	medium	no	excellent	yes
+13	medium _a	hiah	yes	fair	yes
+14	senior	medium	no	excellent	no
