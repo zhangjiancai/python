@@ -159,7 +159,7 @@ def generate_big_rules(L, support_data, min_conf):
             sub_set_list.append(freq_set)
     return big_rule_list
 
-
+'''
 if __name__ == "__main__":
     """
     Test
@@ -177,3 +177,4 @@ if __name__ == "__main__":
     print "Big Rules"
     for item in big_rules_list:
         print item[0], "=>", item[1], "conf: ", item[2]
+'''
