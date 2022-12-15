@@ -60,3 +60,29 @@ x4<=10;
 x1+x2+x3+x4=70;
 @gin(x1);@gin(x2);@gin(x3);@gin(x4);
 
+!第四题;
+model:
+sets:
+variable/1..3/:x;!规定变量;
+s_con_num/1..6/:g,dplus,dminus;!软约束条件个数以及相关参数;
+s_con(s_con_num,variable):c;!软约束系数;
+endsets
+data:
+g=16000 200 24 12 10 6;
+c=500 650 800 6 8 10 0 0 0 1 0 0 0 1 0 0 0 1;
+enddata
+
+!min=dminus(1);!第一个目标函数;
+!min=dminus(2);!第二个目标函数;
+!min=dplus(3);!第三个目标函数;
+!min=dminus(4)+dplus(4)+dminus(5)+dplus(5)+dminus(6)+dplus(6);!第四个目标函数;
+
+!2*x(1)+2*x(2)<12;!硬约束；本题没有硬约束;
+@for(s_con_num(i):@sum(variable(j):c(i,j)*x(j))+dminus(i)-dplus(i)=g(i));
+!软约束表达式;
+!dminus(1)=0;!第一级负偏差为0;
+!dminus(2)=0;!第二级负偏差为0;
+!dplus(3)=0;!第三级正偏差为0;
+!dminus(4)+dplus(4)+dminus(5)+dplus(5)+dminus(6)+dplus(6)=0;!这个要去掉;
+@for(variable:@gin(x));!限制变量为整数;
+end
