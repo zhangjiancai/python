@@ -48,3 +48,15 @@ enddata
 min = @sum(links(i,j): c(i,j) * x(i,j));
 @for(supplys(i): @sum(demands(j): x(i,j)) = S(i));
 @for(demands(j): @sum(supplys(i): x(i,j)) = D(j));
+
+
+!第三题;
+min=11.25*x1+11.4*x2+11.15*x3+11.3*x4-12.75;
+x1>=10;
+x1<=25;
+x2<=35;
+x3<=30;
+x4<=10;
+x1+x2+x3+x4=70;
+@gin(x1);@gin(x2);@gin(x3);@gin(x4);
+
