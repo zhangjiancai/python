@@ -1,4 +1,4 @@
-matlab:
+%matlab:
 
 f=[3,11,3,10,1,9,2,8,7,4,10,5,3,6,5,6];
 
@@ -13,7 +13,7 @@ beq=[7;4;9;3;6;5;6];
 [x,y]=linprog(f,[],[],aeq,beq,zeros(12,1));
 
 
-lingo:
+!lingo:;
 sets:
 supplys/1..3/: S;
 demands/1..4/: D;
