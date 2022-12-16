@@ -1,0 +1,9 @@
+%matlab:
+f=[2,-1,5,-3,4];
+f=-f;
+a=[3,-2,7,-5,-4;1,-1,2,-4,2];
+b=[6;0];
+intcon=[1:5];
+lb=zeros(5,1);
+ub=ones(5,1);
+[x,y]=intlinprog(f,intcon,a,b,[],[],lb,ub);
