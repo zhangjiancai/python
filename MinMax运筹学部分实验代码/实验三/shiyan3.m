@@ -1,11 +1,11 @@
-matlab:
+%matlab:
 f=[1,1];
 intcon=[1,2];
 A=[2,5;6,5];
 b=[16;30];
 [x,y]=intlingprog(-f,intcon,A,b,zeros(2,1));
 
-lingo:
+!lingo:;
 min=(-1)*x1+(-1)*x2;
 2*x1+5*x2<=16;
 6*x1+5*x2<=30;
@@ -13,7 +13,7 @@ min=(-1)*x1+(-1)*x2;
 
 
 %第二题
-matlab:
+%matlab:
 f=[2,-1,5,-3,4];
 f=-f;
 a=[3,-2,7,-5,-4;1,-1,2,-4,2];
@@ -23,7 +23,7 @@ lb=zeros(5,1);
 ub=ones(5,1);
 [x,y]=intlingprog(f,intcon,a,b,[],[],lb,ub);
 
-lingo:
+!lingo:;
 model:
 sets:
 var/1..5/:x;
