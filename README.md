@@ -38,5 +38,17 @@ md打两个回车换行？
 添加分割线使用```****```
 如：
 ****
-[readme Markdown](https://blog.csdn.net/m0_37622530/article/details/80456270)
+[readme Markdown的CSDN(部分)](https://blog.csdn.net/m0_37622530/article/details/80456270)
 ————————————————————————————————————————————————————————————————————————
+
+另外添加代码片段的格式为：
+```
+ ``` 代码片段```
+```
+
+## 2023 1 14 
+回头看了一个前几天的csdn的文章。发现，竟然这个微信的文章的python代码竟然没有缩进。我实在是无法理解，写过python的人都应该知道这个事吧。无法理解。
+不过还好他有原文的链接：[放这了](https://vgel.me/posts/donut/)
+而且大家可以看看cdsn公众号上的文章：[链接放这了](https://mp.weixin.qq.com/s/eYU5pa9Xidmhxhv4STBrPA)
+大家可以试试bing翻译，一模一样。服了。**好水**。
+然后这个是我copy的代码：[链接放这了]()
