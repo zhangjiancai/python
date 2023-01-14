@@ -51,4 +51,4 @@ md打两个回车换行？
 不过还好他有原文的链接：[放这了](https://vgel.me/posts/donut/)
 而且大家可以看看cdsn公众号上的文章：[链接放这了](https://mp.weixin.qq.com/s/eYU5pa9Xidmhxhv4STBrPA)
 大家可以试试bing翻译，一模一样。服了。**好水**。
-然后这个是我copy的代码：[链接放这了]()
+然后这个是我copy的代码：[链接放这了](./SDF_python/readme.md)
