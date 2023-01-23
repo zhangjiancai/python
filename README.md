@@ -52,3 +52,12 @@ md打两个回车换行？
 而且大家可以看看cdsn公众号上的文章：[链接放这了](https://mp.weixin.qq.com/s/eYU5pa9Xidmhxhv4STBrPA)
 大家可以试试bing翻译，一模一样。服了。**好水**。
 然后这个是我copy的代码：[链接放这了](./SDF_python/readme.md)
+****
+## 2023 1 23
+闲来无事看到了[微信公众号量子位](%E4%BD%A0%E5%8F%88%E7%9F%A5%E9%81%93%E5%95%A5%E5%91%80.gif)的[一篇文章](https://mp.weixin.qq.com/s/bgE1vpbiuyHCFSzaY1Xiaw),ps最近发现我使用超链接越来越熟练了哈。不知道GIF怎么插入还有表情包。我马上试试。因为我找到了[一个GitHub文章与之类似](https://github.com/sjtu-liao/three-body)
+这个是
+[网址的来源1](https://mp.weixin.qq.com/s/xo8A5dA-UDhYVOf39t8N_A)
+[网址来源2](https://blog.csdn.net/vor234/article/details/124952322)
+```<br>```换行的标识符
+然后我就有了[三体](ThreeBody_python/text.ipynb)的想法 看看人家怎么写的。
+****
