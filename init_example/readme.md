@@ -1,0 +1,1 @@
+# 这个是python init的使用。一般在python2.7使用。python3好像不需要这个init。

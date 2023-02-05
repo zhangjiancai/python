@@ -1,4 +1,8 @@
 {
     "python.analysis.typeCheckingMode": "basic",
-    "notebook.output.textLineLimit": -1
+    "notebook.output.textLineLimit": 200,
+    "editor.accessibilitySupport": "off",
+    "[markdown]": {
+        "editor.wordWrapColumn": 100
+    }
 }
