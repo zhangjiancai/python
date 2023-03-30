@@ -1,0 +1,6 @@
+# 少用fork。
+[The received wisdom suggests that Unix’s unusual combination of fork() and exec() for process creation was an inspired design. In this paper, we argue that fork was a clever hack for machines and programs of the 1970s that has long outlived its usefulness and is now a liability. We catalog the ways in which fork is a terrible abstraction for the modern programmer to use, describe how it compromises OS implementations, and propose alternatives.As the designers and implementers of operating systems, we should acknowledge that fork’s continued existence as a first-class OS primitive holds back systems research, and deprecate it. As educators, we should teach fork as a historical artifact, and not the first process creation mechanism students encounter.](https://www.microsoft.com/en-us/research/publication/a-fork-in-the-road/)
+
+
+[POSIX 规范列出了 25 个关于如何将父状态复制到子进程[63]的具体情况：文件锁、定时器、异步 IO 操作、跟踪等等是时候淘汰对操作系统的 fork() 调用了
+原文链接： https://www.infoq.cn/article/BYGiWI-fxHTNvSohEUNW](https://www.infoq.cn/article/BYGiWI-fxHTNvSohEUNW)
